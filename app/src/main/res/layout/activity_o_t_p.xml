@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.OTPActivity"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/OTPToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_marginTop="15dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the received OTP here : "
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/enterOTP"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:hint="OTP(4 Character)"
+        android:paddingLeft="15dp"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:layout_marginTop="15dp"
+        android:hint="New Password (Min 4 characters)"
+        android:paddingLeft="15dp"
+        android:inputType="textPassword"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:paddingLeft="15dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Submit"
+        android:background="@color/buttonColor"
+        android:textSize="18sp" />
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">HungerGo</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="login_shared_preferences">HungerGo Preferences</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="favourite_restaurants">Favourite Restaurants</string>
+    <string name="order_history">Order History</string>
+    <string name="faqs">FAQs</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Resgistration_Preference">RegistrationPreference</string>
+    <string name="Ques_1"> What if I face a problem in receiving the online food orders , whom will i contact ?</string>
+    <string name="Ans_1">All the requests and questions are managed by us here at HungerGo. </string>
+    <string name="Ques_2">How will be my orders delivered?</string>
+    <string name="Ans_2"> Orders are delivered directly by the HungerGo Packaging Assist suppliers. Different items in an order could be fulfilled by different suppliers. We will share the contact details and amount payable for all deliveries via email and SMS.</string>
+
+    <string name="Ques_3">How are you guys are different?</string>
+    <string name="Ans_3"> Best products - We only list the products which have passed our tests and are the best suitable for delivery. They will help in giving a better consumer experience, so you can get get repeated orders.
+        Best prices - We have negotiated rates with our distributors .
+        Convenience - No need to haggle for prices. No need to follow-up on delivery. We track all orders to ensure you have a hassle free experience.</string>
+    <string name="Ques_4">Will all the items that I have ordered for, be delivered at a time?</string>
+    <string name="Ans_4">This depends on the items that you have ordered. We have partnered with different brands for different products to help you get the best prices. So, if you have ordered for different items, you might not receive them all at once.</string>
+    <string name="Ques_5">Why is HungerGo doing this?</string>
+    <string name="Ans_5">At HungerGo we strive to add value to your business. We understand the challenges you face on a daily basis in sourcing the best quality packaging material. HungerGo Packaging Assist is to take care of all your packaging needs.</string>
+</resources>
+

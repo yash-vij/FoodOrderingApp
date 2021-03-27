@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MyProfileFragment"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/profileToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="40dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_my_profile"/>
+
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Hello"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/profileMobileNumber"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Hello"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+
+            android:background="@color/white"/>
+        <TextView
+            android:id="@+id/profileEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Hello"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+
+            android:background="@color/white"/>
+        <TextView
+            android:id="@+id/profileAddress"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Hello"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+
+            android:background="@color/white"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RestaurantMenuActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/menuCoordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/menuToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <RelativeLayout
+        android:id="@+id/menuHeadLayout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:background="#dedede"
+        android:layout_below="@id/menuCoordinatorLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose from menu list below:"
+            android:textSize="17sp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            />
+
+
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/menuRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuHeadLayout"
+        android:layout_above="@+id/proceedToCart"/>
+    <RelativeLayout
+        android:id="@+id/MenuProgressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+        <ProgressBar
+            android:id="@+id/menuProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+    <Button
+
+        android:id="@+id/proceedToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed To Cart"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"/>
+</RelativeLayout>
